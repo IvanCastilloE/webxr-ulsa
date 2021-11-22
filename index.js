@@ -17,7 +17,7 @@ const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
 
 const loader = new GLTFLoader();
 
-loader.load( './models/scene01.glb',  
+loader.load( './models/Scene01.glb',  
 function ( gltf ) {
 
     scene.add( gltf.scene );
@@ -35,12 +35,12 @@ function ( error ) {
 
 });
 
-camera.position.z = 3.5;
-camera.position.y = 1;
-camera.position.x = -1;
+camera.position.z = 50;
+camera.position.y = 50;
+camera.position.x = 50;
 
-camera.rotation.x = -0.2;
-camera.rotation.y = -0.5;
+camera.rotation.x = 2;
+camera.rotation.y = 2;
 
 
 function animate() {
