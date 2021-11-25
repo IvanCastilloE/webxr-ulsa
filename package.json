@@ -1,7 +1,6 @@
 {
   "name": "webxr-ulsa",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,5 +19,7 @@
   "homepage": "https://github.com/IvanCastilloE/webxr-ulsa#readme",
   "dependencies": {
     "gh-pages": "^3.2.3"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
